@@ -3,23 +3,23 @@ import { Terminal, PenTool, BarChart3, Sparkles } from "lucide-react";
 
 const tools = [
   {
-    title: "Clean Code",
-    description: "Writing modular, scalable components with TypeScript and Tailwind.",
+    title: "工程化开发",
+    description: "熟悉 TypeScript、React、Vite 与组件化开发，重视结构清晰和可维护性。",
     icon: Terminal,
   },
   {
-    title: "Interface Design",
-    description: "High-fidelity prototyping and visual systems in Figma.",
+    title: "界面实现",
+    description: "把设计稿快速转成高还原、高性能的 Web 界面，并兼顾移动端体验。",
     icon: PenTool,
   },
   {
-    title: "Data Logic",
-    description: "Transforming complex data into intuitive dashboard experiences.",
+    title: "数据与业务逻辑",
+    description: "处理接口联调、状态管理、数据展示和复杂业务流，让功能真正可用。",
     icon: BarChart3,
   },
   {
-    title: "AI Integration",
-    description: "Leveraging modern LLMs to augment user workflows.",
+    title: "AI 能力接入",
+    description: "尝试把大模型能力接入产品流程，提升效率、内容生成和交互体验。",
     icon: Sparkles,
   },
 ];
@@ -30,9 +30,9 @@ export default function Toolbox() {
       <div className="max-w-7xl mx-auto px-8">
         <div className="mb-20">
           <h2 className="text-sm font-bold uppercase tracking-[0.3em] text-on-surface-variant mb-4">
-            Toolbox
+            Tech Stack
           </h2>
-          <p className="text-4xl font-bold tracking-tight text-on-surface">百宝箱</p>
+          <p className="text-4xl font-bold tracking-tight text-on-surface">技术栈</p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {tools.map((tool, index) => (
