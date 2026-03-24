@@ -1,6 +1,7 @@
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Toolbox from "./components/Toolbox";
+import AdvancedTools from "./components/AdvancedTools";
 import Writing from "./components/Writing";
 import Footer from "./components/Footer";
 
@@ -11,6 +12,7 @@ export default function App() {
       <main className="flex-grow pt-24 pb-20">
         <Hero />
         <Toolbox />
+        <AdvancedTools />
         <Writing />
       </main>
       <Footer />
