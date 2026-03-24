@@ -28,7 +28,7 @@ export default function Writing() {
       <div className="flex justify-between items-end mb-16 gap-6 flex-wrap">
         <div>
           <h2 className="text-sm font-bold uppercase tracking-[0.3em] text-on-surface-variant mb-4">
-            Writing
+            技术文章
           </h2>
           <p className="text-4xl font-bold tracking-tight text-on-surface">文章</p>
         </div>

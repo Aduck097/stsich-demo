@@ -25,7 +25,7 @@ export default function Footer() {
           ))}
         </div>
         <p className="text-[10px] text-on-surface-variant font-medium uppercase tracking-widest">
-          © 2026 Aduck097. Build with code.
+          © 2026 Aduck097。由代码构建。
         </p>
       </div>
     </footer>

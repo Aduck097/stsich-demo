@@ -30,7 +30,7 @@ export default function Toolbox() {
       <div className="max-w-7xl mx-auto px-8">
         <div className="mb-20">
           <h2 className="text-sm font-bold uppercase tracking-[0.3em] text-on-surface-variant mb-4">
-            Tech Stack
+            技术能力
           </h2>
           <p className="text-4xl font-bold tracking-tight text-on-surface">技术栈</p>
         </div>

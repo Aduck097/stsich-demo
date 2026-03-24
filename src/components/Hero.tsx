@@ -14,7 +14,7 @@ export default function Hero() {
         className="order-2 lg:order-1"
       >
         <span className="inline-block px-4 py-1.5 rounded-full bg-surface-container-high text-primary text-[10px] font-bold uppercase tracking-[0.2em] mb-6">
-          全栈开发者 / Web 程序员
+          全栈开发 / 程序员
         </span>
         <h1 className="text-5xl md:text-7xl font-bold tracking-tighter text-on-surface leading-[1.05] mb-8">
           用代码搭建产品，<br />
