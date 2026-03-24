@@ -2,7 +2,7 @@ import { motion } from "motion/react";
 
 const navItems = [
   { label: "项目", href: "#work" },
-  { label: "技术栈", href: "#toolbox" },
+  { label: "工具箱", href: "#toolbox" },
   { label: "文章", href: "#blog" },
   { label: "关于我", href: "#about" },
 ];
